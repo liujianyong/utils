@@ -495,7 +495,6 @@ public class CryptoConvertConfig {
 	 *
 	 */
 	private static String convertIDCardForHKandMacao(String valueStr) {
-		int length = valueStr.length();
 		return convertCommon(valueStr, 0, 5);
 	}
 
