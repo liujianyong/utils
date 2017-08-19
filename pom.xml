@@ -346,6 +346,23 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!--netease trace -->
+		<dependency>
+			<groupId>com.netease.backend.trace</groupId>
+			<artifactId>trace-client</artifactId>
+			<version>0.4-SNAPSHOT</version>
+		</dependency>
+		<!-- netease nqs -->
+		<dependency>
+			<groupId>com.netease.cloud.nqs</groupId>
+			<artifactId>nqs-client-java</artifactId>
+			<version>${nqsClient.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.rabbitmq</groupId>
+			<artifactId>amqp-client</artifactId>
+			<version>3.5.3</version>
+		</dependency>
 
 	</dependencies>
 
