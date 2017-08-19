@@ -24,7 +24,7 @@ import com.jcraft.jsch.SftpException;
 /**
  * sftp 工具类
  * 
- * @author liujianyong
+ *  
  *
  */
 public class SFTPTool {
