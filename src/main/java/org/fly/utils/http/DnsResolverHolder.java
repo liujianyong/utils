@@ -8,7 +8,7 @@ import java.util.Iterator;
 
 /**
  * 
- *  zhengxiaohong
+ *  
  */
 public class DnsResolverHolder {
 

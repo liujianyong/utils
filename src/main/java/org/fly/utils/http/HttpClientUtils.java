@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory;
 /**
  * HttpClient的封装
  * 
- *  zhengxiaohong
+ *  
  */
 public class HttpClientUtils {
     private static Logger logger = LoggerFactory.getLogger(HttpClientUtils.class);

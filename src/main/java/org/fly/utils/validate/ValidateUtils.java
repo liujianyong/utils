@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * 验证工具
  * 
- *  zhengxiaohong(hzzhengxiaohong@corp.netease.com)
+ *  
  * @version V 0.1 2012-12-31 下午4:15:42
  */
 public class ValidateUtils {

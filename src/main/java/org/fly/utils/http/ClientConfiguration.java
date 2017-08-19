@@ -1,7 +1,7 @@
 package org.fly.utils.http;
 
 /**
- *  zhengxiaohong
+ *  
  */
 public class ClientConfiguration {
 

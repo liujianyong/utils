@@ -22,7 +22,7 @@ import net.sf.jxls.reader.XLSReader;
 /**
  * excel导入导出的工具类
  * 
- *  liangzheng
+ *  liang
  * @param <T>
  * 
  */

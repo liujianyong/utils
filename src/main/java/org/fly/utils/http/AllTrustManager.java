@@ -10,7 +10,7 @@ import javax.net.ssl.X509TrustManager;
 
 /**
  * 
- *  zhengxiaohong
+ *  
  */
 public class AllTrustManager implements X509TrustManager {
 

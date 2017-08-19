@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 带缓存的域名解析器
  * 
- *  zhengxiaohong(hzzhengxiaohong@corp.netease.com)
+ *  
  * @version V 0.1 2014-7-14 下午2:11:49
  */
 public class MemoryCacheDnsResolver implements DnsResolver {

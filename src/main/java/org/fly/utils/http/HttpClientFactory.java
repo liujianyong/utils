@@ -14,7 +14,7 @@ import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.params.HttpParams;
 
 /**
- *  zhengxiaohong
+ *  
  * @Description
  */
 public class HttpClientFactory {

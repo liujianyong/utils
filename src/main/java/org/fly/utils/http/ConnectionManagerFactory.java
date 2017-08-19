@@ -15,7 +15,7 @@ import org.slf4j.LoggerFactory;
 
 /**
  * 
- *  zhengxiaohong(hzzhengxiaohong@corp.netease.com)
+ *  
  * @version V 0.1 2013-8-27 下午3:39:01
  */
 public class ConnectionManagerFactory {
