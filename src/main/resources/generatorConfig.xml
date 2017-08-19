@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+
+	<classPathEntry location="E:\\mybatis-generator\\lib\\mysql-connector-java-5.1.35.jar"/>
+	<classPathEntry location="E:\\mybatis-generator\\lib\\ojdbc14-10.2.0.5.jar"/>
+
+	<context id="context1">
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+		
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
+			connectionURL="jdbc:mysql://127.0.0.1:6000/ddb_test_all" userId="situser"
+			password="situser" />
+		
+		<!-- <jdbcConnection driverClass="oracle.jdbc.driver.OracleDriver" connectionURL="jdbc:oracle:thin:@127.0.0.1:6561:accountdb" 
+			userId="ap_recon" password="ap_recon" /> 
+		-->
+	    <!-- 生成模型的包名和位置，就是mybatis 里面用的一些entity 类的存放路径配置 -->
+		<javaModelGenerator targetPackage="com.ihome.mi.insurance.domain"
+			targetProject="mi-insurance/src/main/java" />
+
+		<!-- 生成的映射文件报名和位置，就是对应mybatis 的写sql 语句的xml文件的存放路径配置 -->
+		<sqlMapGenerator targetPackage="mapper" targetProject="mi-insurance/src/main/resources" />
+		
+		<!-- 生成DAO的包名和位置，就是mybatis 里面dao 接口的存放路径 -->
+		<javaClientGenerator targetPackage="com.ihome.mi.insurance.dao"
+			targetProject="mi-insurance/src/main/java" type="XMLMAPPER" />
+			
+		<table tableName="mi_credit_test" domainObjectName="CreditTest"
+			enableSelectByExample="false" enableCountByExample="false"
+			enableUpdateByExample="false" enableDeleteByExample="false"
+			selectByExampleQueryId="false">
+		</table>
+		
+
+	</context>
+</generatorConfiguration>
