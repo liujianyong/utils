@@ -8,7 +8,7 @@ package org.fly.utils.cache;
  * 
  *  
  */
-public interface IHomeCacheClient {
+public interface ICacheClient {
 
     /**
      * 放入缓存

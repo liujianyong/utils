@@ -7,7 +7,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.fly.exception.ApplicationException;
 import org.fly.exception.CoreErrors;
 import org.fly.utils.cache.CacheException;
-import org.fly.utils.cache.IHomeCacheClient;
+import org.fly.utils.cache.ICacheClient;
 import org.fly.utils.serializer.Serializer;
 
 import com.google.common.primitives.Ints;
@@ -21,7 +21,7 @@ import com.netease.backend.nkv.client.impl.DefaultNkvClient;
  * 
  *  
  */
-public class INkvClient implements IHomeCacheClient {
+public class INkvClient implements ICacheClient {
 
     /** 底层的nkv客户端 */
     private DefaultNkvClient nkvClient;

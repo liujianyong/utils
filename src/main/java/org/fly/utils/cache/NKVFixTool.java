@@ -8,8 +8,8 @@ import org.fly.utils.serializer.HessianSerializer;
 public class NKVFixTool {
 
     static INkvClient nkvClient;
-    static String master = "10.166.49.108:5198";
-    static String slave = "10.166.49.109:5198";
+    static String master = "127.0.0.1:5198";
+    static String slave = "127.1.1.1:5198";
     static String group = "group01";
     static String namespace = "prod01";
     long timeout = 5000;
