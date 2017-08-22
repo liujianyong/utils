@@ -28,7 +28,7 @@ import com.rabbitmq.client.ShutdownSignalException;
 
 /**
  * RabbitMQ生产者的封装
- * @author 
+ *  
  */
 public class MQProducer extends MQTraceUtil{
 

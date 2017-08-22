@@ -16,7 +16,7 @@ import org.apache.commons.codec.binary.Base64;
 /**
  * 签名工具
  * 
- * @author 
+ *  
  */
 public class SignUtil {
 

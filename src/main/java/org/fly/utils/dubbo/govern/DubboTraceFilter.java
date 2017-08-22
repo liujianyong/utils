@@ -35,7 +35,7 @@ import com.netease.backend.trace.meta.model.TraceType;
 
 /**
  * 服务治理过滤
- * @author liang
+ *  liujianyong
  *
  */
 @Activate(group = { Constants.CONSUMER, Constants.PROVIDER })

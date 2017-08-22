@@ -36,7 +36,7 @@ import org.springframework.util.Assert;
 /**
  * 文件目录watch服务
  * 
- * @author 
+ *  
  * 
  */
 
@@ -66,7 +66,7 @@ public final class DirMonitorServiceUtils {
 	/**
 	 * 单例延迟初始化ThreadPool
 	 * 
-	 * @author 
+	 *  
 	 *
 	 */
 	private static class ExecutorServiceHolder {
@@ -75,7 +75,7 @@ public final class DirMonitorServiceUtils {
 	
 	/**
 	 * 目录监控
-	 * @author 
+	 *  
 	 *
 	 */
 	private final static class WatchDir {
@@ -312,7 +312,7 @@ public final class DirMonitorServiceUtils {
 	}
 	/**
 	 * 
-	 * @author 
+	 *  
 	 *
 	 */
 	public static interface IFileMonitor {
@@ -345,7 +345,7 @@ public final class DirMonitorServiceUtils {
 
 	/**
 	 * 默认实现
-	 * @author 
+	 *  
 	 *
 	 */
 	public static abstract class  AbstractFileMonitor implements IFileMonitor{ 

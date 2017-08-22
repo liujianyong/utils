@@ -7,7 +7,7 @@ import org.fly.exception.PlatformException;
 
 /**
  * mq相关的异常
- * @author 
+ *  
  */
 public class MQException extends PlatformException {
 

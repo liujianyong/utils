@@ -19,7 +19,7 @@ import com.rabbitmq.client.ShutdownSignalException;
 
 /**
  * RabbitMQ消费者的封装
- * @author 
+ *  
  */
 public class MQConsumer {
 
@@ -162,7 +162,7 @@ public class MQConsumer {
 
 	/**
 	 * 消费者线程
-	 * @author 
+	 *  
 	 *
 	 */
 	class MQConsumerRunner implements Runnable {

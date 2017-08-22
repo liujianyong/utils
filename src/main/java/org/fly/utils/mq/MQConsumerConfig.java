@@ -5,7 +5,7 @@ package org.fly.utils.mq;
 
 /**
  * MQ消费者相关的配置
- * @author 
+ *  
  */
 public class MQConsumerConfig {
 

@@ -5,7 +5,7 @@ import org.fly.exception.PlatformException;
 /**
  * 签名出错的异常
  * 
- * @author 
+ *  
  * 
  */
 public class SignatureException extends PlatformException {

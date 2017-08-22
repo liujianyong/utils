@@ -23,7 +23,7 @@ import com.netease.backend.trace.filters.Trace;
  
 /**
  * 
- * @author liang
+ *  liujianyong
  *
  */
 public class TraceInitConfig {
@@ -41,7 +41,7 @@ public class TraceInitConfig {
 	
 	/**
 	 * 
-	 * @author  
+	 *   
 	 *
 	 */
 	public static class Factory implements ApplicationContextAware {
@@ -141,7 +141,7 @@ public class TraceInitConfig {
 
 	/**
 	 * 监视器
-	 * @author liang
+	 *  liujianyong
 	 *
 	 */
 	static class TraceConfigFileMonitor extends  AbstractFileMonitor {

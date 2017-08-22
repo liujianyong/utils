@@ -8,7 +8,7 @@ import com.netease.cloud.nqs.client.ClientConfig;
 /**
  * mq相关的配置
  * 
- * @author 
+ *  
  */
 public class MQConfig {
 
