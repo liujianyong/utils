@@ -7,6 +7,7 @@ import java.io.InputStream;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -32,6 +33,9 @@ import org.fly.utils.log.LogOp;
 import org.fly.utils.validate.ValidateUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
 
 /**
  * HttpClient的封装
@@ -590,4 +594,7 @@ public class HttpClientUtils {
         }
         return retUrl + URLEncodedUtils.format(nameValuePairs, encoding);
     }
+    
+
+    
 }
