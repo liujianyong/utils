@@ -12,8 +12,8 @@ public class CronUtils {
 
     public static void main(String[] args) throws Exception {
         CronTriggerImpl cronTriggerImpl = new CronTriggerImpl();
-//        cronTriggerImpl.setCronExpression("0 0 9-19/2 * * ?");// 这里写要准备猜测的cron表达式
-        cronTriggerImpl.setCronExpression("0 30 0/1 * * ?");// 这里写要准备猜测的cron表达式
+        cronTriggerImpl.setCronExpression("0 0 9-19/2 * * ?");// 这里写要准备猜测的cron表达式
+//        cronTriggerImpl.setCronExpression("0 30 0/1 * * ?");// 这里写要准备猜测的cron表达式
         Calendar calendar = Calendar.getInstance();
         Date now = calendar.getTime();
         calendar.add(Calendar.YEAR, 2);// 把统计的区间段设置为从现在到2年后的今天（主要是为了方法通用考虑，如那些1个月跑一次的任务，如果时间段设置的较短就不足20条)
