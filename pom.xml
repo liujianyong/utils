@@ -10,7 +10,7 @@
 		<mybatis.version>3.2.7</mybatis.version>
 		<!-- log4j日志文件管理包版本 -->
 		<log4j.version>1.2.16</log4j.version>
-		<jackson.version>2.2.0</jackson.version>
+		<jackson.version>2.11.1</jackson.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<spring.version>4.1.6.RELEASE</spring.version>
